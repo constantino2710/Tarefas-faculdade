@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char idadeTexto[10]; 
+
+    printf("Digite sua idade: ");
+    scanf("%s", idadeTexto); 
+    int idade = atoi(idadeTexto);
+
+    printf("Sua idade é: %d anos\n", idade);
+
+    return 0;
+}
